@@ -119,7 +119,6 @@ db.delete("users", filters={"id": 2})
 ## **Security Notes**
 1. **Encryption Key**:
    - The encryption key is essential for accessing the database. Store it securely (e.g., in a secure secrets manager or environment variable).
-   - Losing the key will result in irreversible data loss, as the database cannot be decrypted.
 
 2. **Database File**:
    - The database file (`db.json`) is encrypted and secure even if accessed by unauthorized users.
@@ -134,15 +133,14 @@ json-database/
 ├── db.py                # Core implementation
 ├── README.md            # Documentation
 ├── encryption_key.key   # Encryption key (keep secure)
-├── db.json              # Encrypted database file (auto-generated)
 ├── .gitignore           # Files to ignore in version control
 ```
-
+   - By default, the db.json is created in the Desktop folder.
 ---
 
 ## **Advanced Tips**
 
-### **1. Use Environment Variables**
+### **1. Use Windows Environment Variables**
 Store the encryption key in an environment variable for better security:
 ```bash
 export DB_ENCRYPTION_KEY=$(cat encryption_key.key)
