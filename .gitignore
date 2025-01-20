@@ -1,0 +1,9 @@
+encryption_key.key
+db.json
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.AppleDouble
+.LSOverride
