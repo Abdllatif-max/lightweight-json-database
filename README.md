@@ -1,7 +1,7 @@
 
 # **Encrypted JSON Database**
 
-The motivation behind creating this project was our need for a local database for a desktop application while ensuring its security—even from regular users—to prevent data breaches. I decided to share this tool with anyone looking to establish a secure, JSON-based database. It's a simple, lightweight, and encrypted system that's easy to implement in Python. This library offers a straightforward way to securely store and manage structured data, with full support for CRUD operations, you can build on it data relationships or add more features.
+The motivation behind creating this project was our need for a local database while ensuring its security—even from regular users—to prevent data breaches. I decided to share this tool with anyone looking to establish a secure, JSON-based database. It's a simple, lightweight, and encrypted system that's easy to implement in Python. This library offers a straightforward way to securely store and manage structured data, with full support for CRUD operations, you can build on it data relationships or add more features.
 
 ---
 
