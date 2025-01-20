@@ -18,7 +18,7 @@ The motivation behind creating this project was our need for a local database fo
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/<your-username>/json-database.git
+   git clone [https://github.com/<your-username>/json-database.git](https://github.com/Abdllatif-max/lightweight-json-database)
    cd json-database
    ```
 
